@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    direction: rtl;
+}
+
+.pomodoro-container {
+    text-align: center;
+    background-color: hsla(56, 100%, 50%, 0.700);
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+#timer {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#startStudyBtn {
+    background-color: #00ff08;
+    color: rgb(0, 0, 0);
+}
+
+#startBreakBtn {
+    background-color: #f1ff52;
+    color: rgb(0, 0, 0);
+}
+
+#resetBtn {
+    background-color: #36c8f4;
+    color: rgb(0, 0, 0);
+}
+
